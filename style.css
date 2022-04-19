@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.video {
+    text-align: center;
+    
+}
+
+.text {
+    text-align: center;
+}
+
+#klip{
+    width: 50%;
+    height: 50%;
+}
+
+.btn {
+    border: 0.2em grey solid;
+    border-radius: 50%;
+    display: block;
+    max-width: fit-content;
+    padding: 12px;
+    margin: 0 auto;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+}
