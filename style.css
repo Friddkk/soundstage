@@ -18,7 +18,7 @@ h1 {
     color: #514D43;
 }
 
-p {
+text-2 p {
     font-family:"Courier New", courier-new, slab-serif, sans-serif;
     color: #514D43;
 }
@@ -28,7 +28,7 @@ p {
     
 }
 
-.text {
+.text-2 {
     text-align: center;
 }
 
