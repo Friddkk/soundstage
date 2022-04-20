@@ -143,6 +143,8 @@ header .logo
 {
   position: relative;
   z-index: 10;
+  background-color: rgb(81, 77, 61, 0.8);
+  padding: 50px;
 }
 
 .text h2
@@ -160,6 +162,17 @@ header .logo
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
+}
+
+.text h4
+{
+  font-size: 1em;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1em;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-family:"Courier New", courier-new, slab-serif, sans-serif;
 }
 .text p
 {
