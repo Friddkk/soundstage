@@ -23,11 +23,6 @@ h1 {
     color: #514D43;
 }
 
-.video {
-    text-align: center;
-    
-}
-
 .text-2 {
     text-align: center;
 }
@@ -226,16 +221,7 @@ Yurij Rightblog.ru*/
         height: 75%;
     }
 }
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*
 
-Resources
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
 header
 {
   position: absolute;
@@ -309,7 +295,7 @@ header .logo
   left: 0;
   width: 100%;
   height: 100%;
-  background: #03a9f4;
+  background: #8dbcd2;
   mix-blend-mode: overlay;
 }
 .text
