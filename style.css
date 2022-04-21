@@ -215,17 +215,10 @@ Yurij Rightblog.ru*/
   100% { opacity: 1; }
 }
 
-@media screen and (min-width:992px) {
-    #klip {
-        width: 75%;
-        height: 75%;
-    }
-
-}
-
 header
 {
   position: absolute;
+  height: 500px;
   top: 0;
   left: 0;
   width: 100%;
@@ -238,9 +231,9 @@ header
 .showcase
 {
   position: absolute;
+  height: 500px;
   right: 0;
   width: 100%;
-  min-height: 100vh;
   padding: 100px;
   display: flex;
   justify-content: space-between;
@@ -257,6 +250,7 @@ header
 .showcase video
 {
   position: absolute;
+  height: 500px;
   top: 0;
   left: 0;
   width: 100%;
@@ -267,6 +261,7 @@ header
 .overlay
 {
   position: absolute;
+  height: 500px;
   top: 0;
   left: 0;
   width: 100%;
@@ -279,12 +274,12 @@ header
   position: relative;
   z-index: 10;
   background-color: rgb(81, 77, 61, 0.8);
-  padding: 50px;
+  padding: 40px;
 }
 
 .text h2
 {
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 800;
   color: #fff;
   line-height: 1em;
@@ -319,19 +314,30 @@ header
   font-family:"Courier New", courier-new, slab-serif, sans-serif;
 }
 
-@media (max-width: 991px)
-{
-  .showcase,
-  .showcase header
-  {
-    padding: 40px;
-  }
-  .text h2
-  {
-    font-size: 3em;
-  }
-  .text h3
-  {
-    font-size: 2em;
-  }
+
+.videopreview {
+  padding-top: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#klip {
+  width: 100%;
+}
+
+
+@media only screen and ( min-width: 1000px ) {
+    header, .showcase, .showcase video, .overlay {
+      height: 700px !important;
+    }
+    .text {
+      padding: 70px;
+    }
+    .text h2,
+    .text h1 {
+      font-size: 5em;
+    }
+    .videopreview {
+      padding-top: 800px;
+    }
 }
