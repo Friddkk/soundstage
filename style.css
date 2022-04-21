@@ -25,19 +25,12 @@ h1 {
 
 .text-2 {
     text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    
 }
 
-.btn {
-    border: 0.2em #404652 solid;
-    border-radius: 50%;
-    display: block;
-    max-width: fit-content;
-    padding: 12px;
-    margin: 0 auto;
-    text-decoration: none;
-    background-color: #404652;
-    color: white;
-}
+
 
 /*https://www.sliderrevolution.com/resources/css-arrow/
 Yurij Rightblog.ru*/
@@ -266,7 +259,6 @@ header
   left: 0;
   width: 100%;
   height: 100%;
-  background: #8dbcd2;
   mix-blend-mode: overlay;
 }
 .text
@@ -338,6 +330,6 @@ header
       font-size: 5em;
     }
     .videopreview {
-      padding-top: 800px;
+      padding-top: 700px;
     }
 }
